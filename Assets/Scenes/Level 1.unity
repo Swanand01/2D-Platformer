@@ -92203,7 +92203,7 @@ CompositeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.03}
   m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
@@ -92254,18 +92254,18 @@ CompositeCollider2D:
         Y: 80000041
   m_CompositePaths:
     m_Paths:
-    - - {x: 63.999973, y: -4.00001}
-      - {x: 63.999973, y: 8.00001}
-      - {x: 60.99999, y: 7.9999747}
-      - {x: 60.99996, y: -0.99999}
-      - {x: 33, y: -1.0000293}
-      - {x: 32.999973, y: -3}
-      - {x: 19, y: -2.9999707}
-      - {x: 18.999971, y: -1}
-      - {x: -10, y: -0.9999706}
-      - {x: -10.00003, y: 8}
-      - {x: -13, y: 7.9999704}
-      - {x: -12.99997, y: -4}
+    - - {x: 63.999973, y: -4.03001}
+      - {x: 63.999973, y: 7.9700093}
+      - {x: 60.99999, y: 7.9699745}
+      - {x: 60.99996, y: -1.02999}
+      - {x: 33, y: -1.0300293}
+      - {x: 32.999973, y: -3.03}
+      - {x: 19, y: -3.0299706}
+      - {x: 18.999971, y: -1.03}
+      - {x: -10, y: -1.0299706}
+      - {x: -10.00003, y: 7.97}
+      - {x: -13, y: 7.96997}
+      - {x: -12.99997, y: -4.03}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
 --- !u!50 &1028483841
@@ -93378,6 +93378,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Finish
       objectReference: {fileID: 0}
+    - target: {fileID: 6656107675546867837, guid: 3cfc117e47c8d7a47872c39f46aa1c22, type: 3}
+      propertyPath: m_Size.x
+      value: 0.27590942
+      objectReference: {fileID: 0}
+    - target: {fileID: 6656107675546867837, guid: 3cfc117e47c8d7a47872c39f46aa1c22, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.47393036
+      objectReference: {fileID: 0}
     - target: {fileID: 6656107675546867838, guid: 3cfc117e47c8d7a47872c39f46aa1c22, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -93449,7 +93457,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6804146612533255039, guid: 286150f18231e4f4a925220284331d14, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 47.75
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 6804146612533255039, guid: 286150f18231e4f4a925220284331d14, type: 3}
       propertyPath: m_LocalPosition.y
