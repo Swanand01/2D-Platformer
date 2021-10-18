@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FinishLevel : MonoBehaviour
 {
@@ -18,6 +19,13 @@ public class FinishLevel : MonoBehaviour
             //collision.gameObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
             collision.gameObject.GetComponent<PlayerMovement>().enabled = false;
             collision.gameObject.GetComponent<Animator>().SetInteger("state", 0);
+            Invoke("CompleteLevel", 2f);
+
         }
+    }
+
+    private void CompleteLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

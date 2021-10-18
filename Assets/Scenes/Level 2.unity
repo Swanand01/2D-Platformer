@@ -195,6 +195,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2600306946380581784, guid: d9864b96aae40304caedf80a9a2f8bef, type: 3}
   m_PrefabInstance: {fileID: 1481402590}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &137316644 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6656107675546867836, guid: 3cfc117e47c8d7a47872c39f46aa1c22, type: 3}
+  m_PrefabInstance: {fileID: 6656107675618309850}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &153370763
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -97326,6 +97331,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6656107675546867839, guid: 3cfc117e47c8d7a47872c39f46aa1c22, type: 3}
+      propertyPath: levelCompleteAudio
+      value: 
+      objectReference: {fileID: 137316644}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3cfc117e47c8d7a47872c39f46aa1c22, type: 3}
 --- !u!1001 &6804146611639333475
